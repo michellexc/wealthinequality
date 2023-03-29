@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  height: 100%;
+  overflow-x: hidden;
+}
+.word {
+  position: absolute;
+  top: 20px;
+  left: 52px;
+  margin: auto;
+  color: #333;
+  font-family: 'Rubik Maze', cursive;
+  font-size: 110px;
+}
+.word2 {
+  position: relative;
+  bottom: 820px;
+  left: 162px;
+  margin: auto;
+  color: #333;
+  font-family: 'Rubik Maze', cursive;
+  font-size: 90px;
+}
+* ::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.imgbox {
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  margin: auto;
+} 
